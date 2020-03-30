@@ -32,6 +32,14 @@ const routes: Routes = [
     path: 'leave',
     loadChildren: () => import('./leave/leave.module').then( m => m.LeavePageModule)
   },
+  {
+    path: 'take-attendance',
+    loadChildren: () => import('./take-attendance/take-attendance.module').then( m => m.TakeAttendancePageModule)
+  },
+  {
+    path: 'attendees',
+    loadChildren: () => import('./attendees/attendees.module').then( m => m.AttendeesPageModule)
+  },
 ];
 
 @NgModule({

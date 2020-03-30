@@ -17,25 +17,31 @@
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div> -->
-  <ion-button (click)="onClick()" [routerLink]="['/geofence']" expand="block" fill="clear" shape="round" >
+  <ion-button [routerLink]="['/geofence']" expand="block" fill="clear" shape="round" >
     Geofence
   </ion-button>
-  <ion-button (click)="onClick()" [routerLink]="['/leave']" expand="block" fill="clear" shape="round">
+  <ion-button [routerLink]="['/leave']" expand="block" fill="clear" shape="round">
     Leave
   </ion-button>
-  <ion-button (click)="onClick()" [routerLink]="['/report']" expand="block" fill="clear" shape="round">
+  <ion-button [routerLink]="['/report']" expand="block" fill="clear" shape="round">
     Report
   </ion-button>
-  <ion-button (click)="onClick()" [routerLink]="['/add-fingerprint']" expand="block" fill="clear" shape="round">
+  <ion-button [routerLink]="['/add-fingerprint']" expand="block" fill="clear" shape="round">
     Add fingerprint
   </ion-button>
-  <ion-button (click)="onClick()" [routerLink]="['/verify-fingerprint']" expand="block" fill="clear" shape="round">
+  <ion-button [routerLink]="['/verify-fingerprint']" expand="block" fill="clear" shape="round">
     Verify fingerprint
   </ion-button>
-  <ion-button (click)="onClick()" [routerLink]="['/add-face']" expand="block" fill="clear" shape="round">
+  <ion-button [routerLink]="['/add-face']" expand="block" fill="clear" shape="round">
     Add face
   </ion-button>
-  <ion-button (click)="onClick()" [routerLink]="['/verify-face']" expand="block" fill="clear" shape="round">
+  <ion-button [routerLink]="['/verify-face']" expand="block" fill="clear" shape="round">
     Verify face
+  </ion-button>
+  <ion-button [routerLink]="['/take-attendance']" expand="block" fill="clear" shape="round">
+    Take attendance
+  </ion-button>
+  <ion-button [routerLink]="['/attendees']" expand="block" fill="clear" shape="round">
+    Attendees
   </ion-button>
 </ion-content>
