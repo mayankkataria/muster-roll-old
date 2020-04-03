@@ -40,6 +40,14 @@ const routes: Routes = [
     path: 'attendees',
     loadChildren: () => import('./attendees/attendees.module').then( m => m.AttendeesPageModule)
   },
+  {
+    path: 'attendees',
+    loadChildren: () => import('./attendees/attendees.module').then( m => m.AttendeesPageModule)
+  },
+  {
+    path: 'take-attendance',
+    loadChildren: () => import('./take-attendance/take-attendance.module').then( m => m.TakeAttendancePageModule)
+  },
 ];
 
 @NgModule({

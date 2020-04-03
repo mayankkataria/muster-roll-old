@@ -7,25 +7,29 @@
 
 <ion-content>
   <ion-grid fixed>
-    <ion-item>
-      <ion-col size="6"><ion-label for="#p-input"l>Present: </ion-label></ion-col>
-      <ion-col size="6"><ion-input id="p-input" type="text" placeholder="P"></ion-input></ion-col>
-    </ion-item>
-    <ion-item>
-      <ion-col size="6"><ion-label>Absent: </ion-label></ion-col>
-      <ion-col size="6"><ion-input type="text" placeholder="A"></ion-input></ion-col>
-    </ion-item>
-    <ion-item>
-      <ion-col size="6"><ion-label>Early Leavers: </ion-label></ion-col>
-      <ion-col size="6"><ion-input type="text" placeholder="EL"></ion-input></ion-col>
-    </ion-item>
-    <ion-item>
-      <ion-col size="6"><ion-label>Late Comers: </ion-label></ion-col>
-      <ion-col size="6"><ion-input type="text" placeholder="LC"></ion-input></ion-col>
-    </ion-item>
+    <ion-row>
+      <ion-col size="6">
+        <ion-item>
+          <ion-input type="text" placeholder="Present(P)"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col size="6">
+        <ion-item>
+          <ion-input type="text" placeholder="Absent(A)"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <ion-item>
+          <ion-input type="text" placeholder="Early leavers(EL)"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col size="6">
+        <ion-item>
+          <ion-input type="text" placeholder="Late Comers(LC)"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
   </ion-grid>
-  
-  
-  
-  
 </ion-content>
